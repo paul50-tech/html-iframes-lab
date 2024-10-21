@@ -10,7 +10,27 @@
     <h1>Company Inc.</h1>
     <h2>For all your incorporated company needs</h2>
 
-    <!-- Create an iframe tag-->
+    <form id="contactForm">
+      <label for="fullname">Full Name:</label>
+      <input type="text" id="fullname" placeholder="Enter Name" required>
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter Email" required>
+  
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" placeholder="Enter Telephone (optional)">
+  
+      <label for="message">Message:</label>
+      <textarea id="message" placeholder="Enter Message"></textarea>
+  
+      <label for="terms">Agree to terms:</label>
+      <input type="checkbox" id="terms">
+  
+      <input type="submit" value="Submit">
+    </form>
+  
+    
+    <iframe src="https://example.com" width="100%" height="400px" title="Example iframe"></iframe>
 
   </body>
 </html>
